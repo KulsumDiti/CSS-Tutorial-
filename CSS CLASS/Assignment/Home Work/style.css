@@ -1,0 +1,251 @@
+   /* navigration part */
+.dznav{
+    width: 100%;
+    border: 1px solid black;
+    background-color: #f85606;
+    margin: 0 auto;
+    height: 120px;
+    border-radius: 10px;
+}
+.dznav .DR ul{
+    display: flex;
+    justify-content: center;
+    margin-left: 300px;
+}
+.dznav .DR ul li{
+    list-style-type: none;
+    margin-left: 30px;
+}
+.dznav .DR ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+.sc{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+.sc input{
+    width: 800px;
+    height: 45px;
+    padding-left: 15px;
+}
+.K{
+    width: 130px;
+    height: 50px;
+    position: absolute;
+    margin-right: 1100px;
+}
+.icon{
+    font-size: 25px;
+    position: absolute;
+    margin-left: 750px;
+    color: #f85606;
+     margin-top: 8px;
+}
+.icon2{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    margin-left: 900px;
+    margin-top: 15px;
+}  
+  /* main part */
+
+  .bg{
+    background-image: url(./bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: initial;
+    height: 500px;
+    margin: 20px 120px;
+    opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+}
+.bg:hover{
+    opacity: 1;
+}
+.tx{
+    text-align: center;
+    width: 100%;
+    height: 300px;
+    padding-top: 100px;
+}
+h1{
+    font-size: 45px;
+    color: #182C61;
+}
+p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+button{
+    width: 100px;
+    height: 30px;
+    background-color: #182C61;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 8px rgb(138, 16, 16);
+}
+button:hover{
+    background-color: rgb(98, 168, 230);
+    color: black;
+    cursor: pointer;
+}
+ /* calculator part */
+
+ .calculator-part{
+    width: 1000px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    margin: 25px auto;
+    background-color: #dfe4ea;
+    border-radius: 15px;
+}
+.cal h1{
+    font-size: 35px;
+    color: black;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 35px;
+}
+.display input{
+    width: 348px;
+    height: 65px;
+    margin-top: 25px;
+    margin-left: 10px;
+    font-size: 20px;
+    background-color: #d1ccc0;
+    text-align: right;
+    letter-spacing: 2px;
+}
+.btn{
+    background-color: #30336b;
+    color: white;
+    width: 78px;
+    height: 70px;
+    margin-left: 10px;
+    font-size: 18px;
+    
+}
+.btn:hover{
+    background-color: #82589F;
+}
+.card{
+    margin-left: 20px;
+    box-shadow: 15px 15px 10px rgb(32, 31, 31);
+}
+ .text h1{
+    font-size: 40px;
+    padding-top: 200px;
+    padding-left: 40px;
+    color: black;
+}
+.text p{
+    font-size: 20px;
+    padding-left: 40px;
+}
+.text button{
+    background-color: #30336b;
+    margin-left: 40px;
+}
+.text button:hover{
+    background-color: blueviolet;
+}
+
+/* shoes part */
+
+.product-card{
+   height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.product-card img{
+    width: 250px;
+    height: 230px;
+    background-color: #ea8685;
+    border-radius: 15px;
+}
+.product-card .sh{
+    width: 250px;
+    height: 450px;
+    box-shadow: 10px 10px 10px black;
+}
+.sh h2{
+    padding-left: 30px;
+}
+.sh p{
+    padding-left: 30px;
+}
+.sh button{
+    margin-left: 110px;
+}
+
+/* login page */
+
+.login{
+    width: 1000px;
+    height: 400px;
+    margin: 20px auto;
+    background-color: #a5b1c2;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+.login .lg{
+    background-color: #bb85ce;
+    width: 300px;
+    height: 280px;
+    margin: 50px 70px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px black;
+}
+.lg form{
+    width: 300px;
+    padding-top: 15px;
+}
+.lg label{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.lg input{
+    width: 250px;
+    height: 30px;
+    border-radius: 20px;
+    padding-left: 15px;
+    margin-left: 20px;
+}
+
+.lg p{
+    font-size: 15px;
+    margin-left: 20px;
+}
+.lg button{
+    width: 250px;
+    height: 28px;
+    margin-left: 20px;
+}
+.lg1{
+    margin-top: 50px;
+}
+.lg1 h1{
+    padding-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+.lg1 p{
+    font-size: 20px;
+    font-weight: normal;
+
+    
+}
+
+
+
+  

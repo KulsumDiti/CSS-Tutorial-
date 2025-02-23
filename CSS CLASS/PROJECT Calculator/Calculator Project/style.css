@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.calculator-card{
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 10px 10px 10px gray;
+}
+.calculator-card:hover{
+    box-shadow: 30px 50px 30px grey;
+
+}
+h1{
+    text-align: center;
+}
+input[type="text"]{
+    height: 60px;
+    width: 400px;
+    margin-top: 20px;
+    text-align: right;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.btn{
+    background-color: black;
+    color: white;
+    width: 97px;
+    height: 70px;
+}
+.btn:hover{
+    background-color: chocolate;
+}
+.btn-diff{
+    background-color: yellow;
+    color: black;
+}
+.btn-diff:hover{
+    background-color: cadetblue;
+
+}
+

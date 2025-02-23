@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout Design-2</title>
+
+    <style>
+        .box{
+            background-color: #ebc276;
+            border: 3px solid red;
+            padding-left: 15px;
+            border-radius: 15px;
+
+        }
+        .container{
+            display: grid;
+            grid-template-columns: 200px auto 200px;
+            grid-template-rows: 80px repeat(2, 1fr);
+            gap: 40px;
+        }
+        #box1{
+            grid-column: span 3;
+         
+        }
+        #box2{
+            grid-row: span 2;
+           
+            color: rgb(59, 19, 97);
+            text-decoration: underline;
+            line-height: 10px;
+        }
+        #box2 h2{
+            font-size: 35px;
+        }
+        #box6{
+            grid-column: span 3;
+          
+        }
+        #box3{
+            grid-row: span 2;
+           
+            
+        }
+         #box3 p{
+            font-size: 30px;
+
+            }
+
+   
+
+    </style>
+</head>
+<body>
+
+    <!-- .container>.box*6#box1 -->
+
+    <div class="container">
+        <div class="box" id="box1"><h2>The header</h2></div>
+        <div class="box" id="box2">
+        <h2>Nav 1</h2>
+        <h2>Nav 2</h2>
+        <h2>Nav 3</h2>
+    </div>
+        <div class="box" id="box3">
+            <h1 style="font-size: 40px;">Main article area</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam <br>accusantium fugit incidunt, eveniet libero, officia autem qui odit voluptates porro veritatis <br> nemo error ad enim rem amet consequatur! Sed,Lorem, ipsum dolor sit amet br
+                consectetur adipisicing elit. Rem nobis unde repudiandae iusto sunt aut officia laboriosam hic voluptas quidem?Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, voluptate.</p>
+        </div>
+        <div class="box" id="box4"><h2>Sidebar</h2></div>
+        <div class="box" id="box5"><h2>Advertising</h2></div>
+        <div class="box" id="box6"><h2>The footer</h2></div>
+    </div>
+    
+    
+</body>
+</html>

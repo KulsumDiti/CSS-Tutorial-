@@ -1,0 +1,33 @@
+.box1,.box2,.box3,.box4{
+    width: 200px;
+    height: 200px;
+    border: 2px solid red;
+}
+.box1{
+    position: relative;
+    top: 50px;
+    left: 300px;
+}
+.box2{
+    position: absolute;
+    top: 50px;
+    left: 300px;
+    
+
+}
+.box5,.box6{
+    width: 200px;
+    height: 150px;
+    border: 2px solid green;
+}
+.parent{
+    width: 600px;
+    height: 250px;
+    position: relative;
+    border: 1px solid red;
+}
+.box5{
+    position: absolute;
+    top: 50px;
+    left: 350px;
+}

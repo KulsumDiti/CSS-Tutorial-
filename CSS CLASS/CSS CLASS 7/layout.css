@@ -1,0 +1,21 @@
+  
+.RK{
+    display: flex;
+  }
+  .R{
+    background-color: #c7ecee;
+    border: 1px solid black;
+  }
+  .K{
+    background-color: #d2dae2;
+    border: 1px solid black;
+  }
+
+       /* opacity(halka kora) img ba text */ 
+
+  .img{
+    opacity: 0.5;
+  }
+  .img:hover{
+    opacity: 1;
+  }

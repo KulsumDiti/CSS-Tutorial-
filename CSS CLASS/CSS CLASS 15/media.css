@@ -1,0 +1,41 @@
+body{
+    background-color: cadetblue;
+    color: black;
+    font-size: 30px;
+}
+button{
+    background-color: burlywood;
+    width: 250px;
+    height: 30px;
+}
+
+        /* age boro device er kaj kora lagbe max likhle */
+        
+        /* r min width dia likhle age choto theke likhte hobe */
+
+       /* for Medium Device.... */
+
+@media  screen and (max-width: 992px) {
+    body{
+        background-color: rgb(171, 145, 196);
+        
+    }
+    h1{
+        color: white;
+        font-weight: bold;
+    }
+    button{
+        width: 180px;
+        height: 40px;
+    }
+}
+
+/* for mobile device */
+
+@media  screen and (max-width: 576px){
+
+    body{
+        background-color: rgb(208, 130, 130);
+    }
+   
+}

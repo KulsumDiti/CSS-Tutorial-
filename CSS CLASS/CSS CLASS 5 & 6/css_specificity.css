@@ -1,0 +1,30 @@
+/* Pseudo Element */
+ 
+.para p::first-line{
+    color: firebrick;
+    font-size: 30px;
+}
+span{
+    color: blue;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.para p::before{
+    content: "Welcome To My Website" ;
+    color: rgb(139, 0, 139);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.para p::after{
+    content: "KULSUM DITI.";
+    color: green;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+::selection{
+    color: blue;
+    background-color: aqua;
+}

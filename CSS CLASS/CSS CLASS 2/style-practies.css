@@ -1,0 +1,46 @@
+p{
+    color: rgba(142, 12, 33, 0.838);
+    font-size: 20px;
+   font-weight: bold;
+    font-style: normal;
+}
+
+span{
+    color: black;
+    font-size:25px ;
+    background-color: peru;
+    font-style: italic;
+}
+
+#RK{
+    color: rgb(12, 12, 117);
+    background-color: gold;
+    font-style: italic;
+}
+
+.Good{
+    color: blue;
+    background-color: greenyellow;
+}
+li{
+    color: darkred;
+    font-size: 20px;
+}
+
+    h3{color: indigo;font-size: 20px;}
+
+    label{
+        color: blue;font-size: 19px;
+         font-weight: bold;
+         }
+    input[type="text"]{
+        color: darkred;}
+
+    input[type="password"]{
+        color: darkorange;}
+
+        select{
+            color: darkred;
+            font-size: medium;
+            font-style: italic;
+        }

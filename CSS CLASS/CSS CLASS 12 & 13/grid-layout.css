@@ -1,0 +1,115 @@
+
+.calendar>div{
+    background-color: #ff793f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 10px;
+
+}
+
+.calendar{
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
+    grid-template-columns: repeat(7,1fr);
+    /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; */
+    grid-template-rows: repeat(6,1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+    height: 300px;
+    width: 800px;
+    margin: 5px auto;
+}
+
+.calendar>div:nth-child(1){
+    background-color: #6bafcf;
+    font-size: 25px;
+}
+.calendar>div:nth-child(2){
+    background-color: #6bafcf;
+    font-size: 25px;
+}
+.calendar>div:nth-child(3){
+    background-color: #6bafcf;
+    font-size: 25px;
+}
+.calendar>div:nth-child(4){
+    background-color: #6bafcf;
+    font-size: 25px;
+}
+.calendar>div:nth-child(5){
+    background-color: #6bafcf;
+    font-size: 25px;
+}
+.calendar>div:nth-child(6){
+    background-color: #6bafcf;
+    font-size: 25px;
+}
+.calendar>div:nth-child(7){
+    background-color: #6bafcf;
+    font-size: 25px;
+}
+
+h1{
+   color: blueviolet;
+   font-size: 30px;
+   margin-left: 680px;
+}
+h2{
+    font-size: 35px;
+    margin-left: 650px;
+}
+
+
+
+  /* calendar2 */
+
+  .container>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c56cf0;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 10px;
+  }
+  .container{
+    display: grid;
+    grid-template: repeat(6,1fr)/repeat(7,1fr);
+    gap: 10px;
+    width: 800px;
+    height: 350px;
+    margin: 15px auto;
+  }
+
+.container>div:nth-child(1){
+    background-color: #6bafcf;
+    font-size: 25px;
+}
+.container>div:nth-child(2){
+    background-color: #6bafcf;
+    font-size: 25px;
+}
+.container>div:nth-child(3){
+    background-color: #6bafcf;
+    font-size: 25px;
+}
+.container>div:nth-child(4){
+    background-color: #6bafcf;
+    font-size: 25px;
+}
+.container>div:nth-child(5){
+    background-color: #6bafcf;
+    font-size: 25px;
+}
+.container>div:nth-child(6){
+    background-color: #6bafcf;
+    font-size: 25px;
+}
+.container>div:nth-child(7){
+    background-color: #6bafcf;
+    font-size: 25px;
+}

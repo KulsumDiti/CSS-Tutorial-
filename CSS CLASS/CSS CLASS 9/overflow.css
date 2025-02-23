@@ -1,0 +1,13 @@
+.diti{
+    width: 400px;
+    border: 1px solid red;
+    height: 150px;
+    /* overflow: hidden; */
+    overflow: scroll;
+}
+.reyal{
+    width: 500px;
+    height: 200px;
+    border: 2px solid blue;
+    overflow: auto;
+}

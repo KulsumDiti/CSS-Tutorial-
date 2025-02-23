@@ -1,0 +1,61 @@
+.box1{
+    width: 150px;
+    height: 150px;
+    background-color: darkviolet;
+    /* margin-bottom: 20px; */
+    /* display: none; */
+    /* visibility: hidden; */
+    box-shadow: 10px 10px 10px hwb(0 50% 50%);
+    /* box er vitor shadow nitee */
+    box-shadow: inset 5px 5px 10px rgb(158, 158, 201);
+}
+.box2{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(0, 0, 139);
+    margin-top: 30px;
+    /* shadow all side e  */ 
+    /* 1 no x,2 no y,3 no kototuk chorabe shadow dekha jabe */
+    box-shadow: 10px 5px 5px rgb(144, 191, 210),-5px -5px 10px rgb(185, 128, 187);
+}
+p{
+    text-shadow:1px 1px 2px rebeccapurple;
+
+}
+.box3{
+    width: 150px;
+    height: 230px;
+    box-shadow: 10px 10px 10px red;
+    border-radius: 10px;
+}
+.pic img{
+    width: 130px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 0;
+
+}
+.title h5{
+    margin-top: 2px;
+    text-align: center;
+}
+.title p{
+    margin-top: 0px
+    
+}
+
+body main .bannar{
+    background-image: url(./development.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+ body main .bannar input{
+    width: 350px;
+    height: 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+}

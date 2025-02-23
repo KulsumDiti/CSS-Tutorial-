@@ -1,0 +1,89 @@
+.navbar{
+    background-color: indigo;
+    padding: 30px;
+    text-align: center;
+    height: 40px;
+    border-radius: 10px;
+   
+    
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 30px;
+}
+.drop-container{
+    display: inline;
+    position: relative;
+}
+.drop-list a{
+    display: block;
+    line-height: 30px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.drop-list{
+    position: absolute;
+    background-color: indigo;
+    margin-left: 710px;
+    padding-right: 30px;
+    display: none;
+}
+.drop-list a:hover{
+    background-color: rgb(205, 176, 227);
+    color: black;
+}
+.drop-container:hover .drop-list{
+    display: block;
+}  
+
+
+/* <!-- drop-down-menu.....2nd prc  --> */
+
+
+.nav{
+     background-color: black;
+     padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 30px;
+}
+.drop-menu{
+    display: inline;
+    position: relative;
+}
+.list a{
+    display: block;
+    line-height: 30px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.list{
+    position: absolute;
+    margin-left: 550px;
+    background-color: black;
+    padding-right: 20px;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    display: none;
+    z-index: 1;
+
+}
+.list a:hover{
+    background-color: rgb(186, 156, 156);
+    color: black;
+    
+}
+.drop-menu:hover .list{
+    display: block;
+} 
+
+

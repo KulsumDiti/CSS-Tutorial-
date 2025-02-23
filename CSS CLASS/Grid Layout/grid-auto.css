@@ -1,0 +1,32 @@
+.container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: #ffeead;
+}
+
+.container > div:nth-child(1n) {
+  background-color: plum;	
+}
+.container > div:nth-child(2n) {
+    background-color: #800f7e;
+}
+
+.container > div:nth-child(3n) {
+  background-color: orange;
+}
+
+.container > div:nth-child(4n) {
+      background-color: skyblue;
+}
+.container > div:nth-child(5n) {
+    background-color: #c22fc0;
+}
+.container {
+    display: grid;
+    /* height: 100vh; */
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    /* grid-template-rows: repeat(2, 1fr); */
+}

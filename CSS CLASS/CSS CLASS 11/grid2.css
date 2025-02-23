@@ -1,0 +1,63 @@
+.container>div{
+    border: 1px solid red;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    /* color: white; */
+}
+.container>div:nth-child(1){
+    background-color: pink;
+}
+.container>div:nth-child(2){
+    background-color: skyblue;
+}
+.container>div:nth-child(3){
+    background-color: rgb(228, 182, 228);
+}
+.container>div:nth-child(4){
+    background-color: rgb(174, 174, 224);
+}
+.container>div:nth-child(5){
+    background-color: rgb(216, 30, 30);
+}
+.container :last-child{
+    background-color: yellowgreen;
+}
+
+.container{
+    display: grid;
+    /* grid-template-columns: 100px 100px 100px; */
+    /* grid-template-columns: 100px auto 100px; */
+    /* grid-template-columns: auto auto auto;
+
+          /* /* auto r Fr same. */
+
+   /* grid-template-columns: 1fr 2fr 3fr;
+   grid-template-columns: repeat(4, 3fr);
+   grid-template-columns:100px repeat(2, 1fr)200px 300px; */
+} 
+
+
+/* row kaj korbe height borabor
+column kaj korbe width borabor... */
+
+.container{
+    display: grid;
+    height: 50vh;
+    grid-template-rows: 80px 50px;
+    grid-template-rows: auto auto;
+    grid-template-rows: 1fr 2fr 1fr;
+
+    grid-template-rows: repeat(2,1fr) 100px;
+    grid-template: 100px 100px/50px 100px 100px;
+
+     /* 1st man rows er 2nd man colums  */
+
+  grid-template: 1fr 1fr/1fr 1fr 1fr;
+  grid-template: repeat(2,1fr)/ repeat(3,1fr);
+  /* row-gap: 10px;
+  column-gap: 10px; */
+  gap: 20px;
+
+}
+

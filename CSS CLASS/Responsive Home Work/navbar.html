@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NavBar Responsive</title>
+
+    <style>
+        .nav-container{
+            width: 100%;
+            background-color: #7158e2;
+            text-align: center;
+            padding: 30px;
+            border-radius: 10px;
+        }
+        .nav-container a{
+           text-decoration: none;
+           font-size: 25px;
+           margin-left: 30px;
+           color: white;
+        }
+
+        @media screen and (max-width: 576px) {
+
+            .nav-container{
+                background-color: #45aaf2;
+            }
+
+            .nav-container a{
+                display: block;
+                border: 1px solid black;
+                margin: 15px;
+                padding: 10px;
+                border-radius: 10px;
+                background-color: #bdc9d6;
+                color: black;
+            }
+            
+        }
+    </style>
+
+
+</head>
+
+
+<body>
+    <div class="nav-container">
+        <a href="#">Home</a>
+        <a href="#">About Me</a>
+        <a href="#">Protfolio</a>
+        <a href="#">Contact</a>
+        <a href="#">Blog</a>
+    </div>
+    
+</body>
+</html>

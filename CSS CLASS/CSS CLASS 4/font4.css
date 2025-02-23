@@ -1,0 +1,33 @@
+p{
+    font-family: "Roboto", sans-serif;
+    font-size: 200%;
+    font-weight: 900;
+    font-style: italic;
+    color: darkblue;
+}
+#RK{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: normal;
+    color: darkorchid;
+}
+#KR{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align:justify;
+  text-decoration: dotted;
+    text-indent: 80px;
+    text-transform: uppercase;
+    
+    
+}
+li{
+    text-decoration: underline;
+    font-size: 30px;
+    text-shadow: .8px  .6px red;
+    word-spacing: 10px;
+    line-height: 50px;
+    
+    
+}

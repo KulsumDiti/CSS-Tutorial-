@@ -1,0 +1,47 @@
+.nav{
+    background-color: black;
+    padding: 2% 8%;
+    text-align: center;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    margin-left: 2%;
+    font-size: 18px;
+}
+.drop-con{
+    display: inline;
+    position: relative;
+}
+.item-list a{
+    display: block;
+    line-height: 28px;
+}
+.item-list{
+    position: absolute;
+    left: 5px;
+    background-color: black;
+    min-width: 80px;
+    padding: 5px;
+    display: none;
+}
+
+.item-list a:hover{
+    background-color: cornflowerblue;
+
+   
+}
+.drop-con:hover .item-list{
+    display: block;
+}
+
+.btn{
+    border: none;
+    padding: 2%;
+    border-radius: 5px;
+    margin-left: 5px;
+    font-size: 15px;
+    color: darkred;
+    background-color: beige;
+}
+

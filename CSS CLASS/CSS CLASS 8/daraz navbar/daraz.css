@@ -1,0 +1,93 @@
+.darazNav{
+    width: 100%;
+    border: 1px solid black;
+    background-color: #f85606;
+    margin: 0 auto;
+    height: 120px;
+    border-radius: 10px;
+   
+ 
+}
+.darazNav .DR ul{
+    display: flex;
+    justify-content: center;
+    margin-left: 300px;
+   
+}
+.darazNav .DR ul li{
+    list-style-type: none;
+    margin-left: 30px;
+}
+.darazNav .DR ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.sc{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+
+}
+
+.main{
+    position: relative;
+    width: 600px;
+    height: 80px;
+}
+.sc input{
+    width: 550px;
+    height: 35px;
+    padding-left: 10px;
+    position: absolute;
+   
+   
+    
+}
+.D{
+    width: 30px;
+    height: 30px;
+} 
+.K{
+    width: 130px;
+    height: 50px;
+    position: absolute;
+    margin-right: 1200px;
+
+}
+.D{
+   
+    position: absolute;
+    margin-left: 520px;
+    margin-top: 2px;
+}
+.icon{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    margin-left: 600px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    
+   
+    
+    
+   
+
+
+
+   
+
+
